@@ -3,6 +3,13 @@ const taskInput = document.getElementById('taskInput')
 const tasksList = document.getElementById('tasksList')
 const emptyList = document.getElementById('emptyList')
 
+
+
+
+console.log('hello');
+
+
+
 form.addEventListener('submit', (e) => {
     e.preventDefault()
     const inputValue = taskInput.value
@@ -49,7 +56,6 @@ tasksList.addEventListener('click', (e) => {
        span.classList.add('task-title--done')
        
     }
-   
-    
+
 })
 
